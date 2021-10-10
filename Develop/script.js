@@ -29,7 +29,6 @@
      const hasUpper = uppercaseEl.checked;
      const hasNumber = numbersEl.checked;
      const hasSymbol = symbolsEl.checked;
-     
      resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
    });
    
@@ -55,7 +54,7 @@
      
      return finalPassword;
    }
-   
+   //funtions for the math of the settings
    function getRandomLower() {
      return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
    }

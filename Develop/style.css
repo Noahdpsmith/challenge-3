@@ -148,13 +148,18 @@ button[disabled] {
   display: inline-block;
   padding: 5px 50px 5px 10px;
   border: 1px solid #ccc;
+  background-color: hsl(360, 91%, 36%);
+  color: white;
+  border-radius: 25px;
+  font-size: 22px;
+  line-height: 22px;
 }
 
 .dropdown-check-list .anchor:after {
   position: absolute;
   content: "";
-  border-left: 2px solid black;
-  border-top: 2px solid black;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
   padding: 5px;
   right: 10px;
   top: 20%;
@@ -163,6 +168,7 @@ button[disabled] {
   -o-transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
+  
 }
 
 .dropdown-check-list .anchor:active:after {
@@ -174,7 +180,7 @@ button[disabled] {
   padding: 2px;
   display: none;
   margin: 0;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(204, 204, 204, 0);
   border-top: none;
 }
 
@@ -183,7 +189,7 @@ button[disabled] {
 }
 
 .dropdown-check-list.visible .anchor {
-  color: #0094ff;
+  color: #f0f2f3;
 }
 
 .dropdown-check-list.visible .items {
